@@ -7,6 +7,8 @@ SITENAME = 'The Beckmeyers'
 SITEURL = ''
 
 PATH = 'content'
+STATIC_PATHS=['/home/adam/repos/thebeckmeyers.xyz/content/images',]
+THEME= 'theme'
 
 TIMEZONE = 'America/Detroit'
 
@@ -20,14 +22,12 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('IndieWeb', 'https://indieweb.org/'),
-         )
+#LINKS = ()
 
 # Social widget
-SOCIAL = ()
+#SOCIAL = ()
 
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
